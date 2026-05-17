@@ -1,13 +1,19 @@
 {
-  "name": "js-homework-04",
+  "name": "homework-4",
   "version": "1.0.0",
-  "description": "Домашнє завдання №4: цикли, масиви, об'єкти",
-  "main": "index.js",
+  "description": "JavaScript basics: loops, arrays, objects",
+  "type": "module",
+  "main": "src/index.js",
   "scripts": {
-    "loop": "node loop.js",
-    "arrays": "node arrays.js",
-    "objects": "node objects.js"
+    "start": "node src/index.js",
+    "loop": "node src/loop.js",
+    "arrays": "node src/arrays.js",
+    "objects": "node src/objects.js"
   },
-  "author": "",
-  "license": "ISC"
+  "keywords": ["javascript", "homework", "basics"],
+  "author": "Khrystyna Prykhodchenko",
+  "license": "ISC",
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
